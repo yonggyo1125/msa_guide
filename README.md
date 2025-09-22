@@ -7,7 +7,7 @@
    - Promtail
    - Grafana
    - Zipkin
-3. 메세지큐 
+3. [메세지큐](https://github.com/yonggyo1125/msa_guide/tree/master/03%20%EB%A9%94%EC%84%B8%EC%A7%80%ED%81%90) 
    - RabbitMQ
 4. [CI/CD](https://github.com/yonggyo1125/msa_guide/tree/master/04%20CICD) 
    - Github actions
