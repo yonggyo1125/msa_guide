@@ -7,7 +7,9 @@
 
 ```yaml
 name: Deploy to Amazon EC2
-on: push
+on:
+  push:
+    branches: [ "main" ] # main 브랜치 merge 트리거 되었을 경우
 
 env:
   REGISTRY: ghcr.io # 깃허브 컨테이너 저장소를 사용한다.
@@ -17,7 +19,6 @@ env:
 jobs:
   Deploy:
     name: Build Docker Image and Deploy EC2 #도커 이미지를 만들고 EC2에 배포
-    if: ${{ github.ref == 'refs/heads/main' }} # main 브랜치 merge 트리거 되었을 경우
     runs-on: ubuntu-latest
     permissions:
       contents: read
