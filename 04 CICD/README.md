@@ -1,6 +1,6 @@
 # Github Actions
 > 도커 이미지를 생성 후 EC2서버로 배포하는 시나리오
-
+- [동영상 강의](https://drive.google.com/drive/folders/1Vs2j2tGah6EZ5u3mtiVDxdEe268KlnbF?usp=drive_link)
 
 ####  .githubs/workflows/deploy.yml
 > 깃허브 원격 레포지토리에 반영, main 브랜치로 merge 되는 순간 트리거됨
